@@ -103,7 +103,7 @@ class _BrowserSvgState extends State<BrowserSvg> {
                 _image,
                 color: widget.color,
                 height: widget.height,
-                fit: widget.fit,
+                fit: BoxFit.fill,
                 width: widget.width,
               ),
             ),
